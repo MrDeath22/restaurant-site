@@ -15,16 +15,6 @@ menuBtn.addEventListener('click', () => {
    showMenu.classList.toggle('show-menu');
 })
 
-// ------------------
-
-// let activeLink = document.querySelectorAll('.active-link');
-
-// activeLink.forEach(item => {
-//    console.log(item);
-// })
-
-
-
 const links = document.querySelectorAll('.nav__link');
 const sections = document.querySelectorAll('section');
   function changeLinkState() {
