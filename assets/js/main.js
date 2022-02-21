@@ -17,13 +17,13 @@ menuBtn.addEventListener('click', () => {
 
 const links = document.querySelectorAll('.nav__link');
 const sections = document.querySelectorAll('section');
-  function changeLinkState() {
-    let index = sections.length;
+   function changeLinkState() {
+      let index = sections.length;
 
-    while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
+      while(--index && window.scrollY + 50 < sections[index].offsetTop) {}
 
-    links.forEach((link) => link.classList.remove('active-link'));
-    links[index].classList.add('active-link');
+      links.forEach((link) => link.classList.remove('active-link'));
+      links[index].classList.add('active-link');
   }
 
 changeLinkState();
